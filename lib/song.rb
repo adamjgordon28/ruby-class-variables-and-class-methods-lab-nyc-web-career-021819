@@ -28,6 +28,9 @@ class Song
     genre_hash={}
     @@genres.each do |genre|
       if genre_hash.keys.exclude(genre)
+        
+      else
+        genre_hash[genre]=+1
       end
     end
   end
