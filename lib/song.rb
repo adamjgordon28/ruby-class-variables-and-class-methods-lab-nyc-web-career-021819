@@ -48,7 +48,7 @@ class Song
       unless artist_hash.keys.include?(artist)
         artist_hash[artist]=1
       else
-        genre_hash[artist]=+1
+        artist_hash[artist]=+1
       end
       binding.pry
     end
