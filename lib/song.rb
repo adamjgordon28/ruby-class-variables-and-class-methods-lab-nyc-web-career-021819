@@ -50,7 +50,6 @@ class Song
       else
         artist_hash[artist]=+1
       end
-      binding.pry
     end
     artist_hash
   end
